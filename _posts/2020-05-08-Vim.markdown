@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vim"
+title:  "Why learn Vim"
 date:   2020-05-08 21:12:30 +0800
 categories: tools
 ---
@@ -9,9 +9,9 @@ Learning Vim had been one of the more rewarding things I've done in my life.
 
 Before switching to Linux, I've heard that Vim is a powerful text editor, but when I first tried it, I was taken aback by how awkward the keybindings are.
 
-For example, to move your cursor a word forward, it is to press 'w'. At this point I expect moving a word backward would be something sensible, like 'q' or something, so it would be like how arrow keys are, but it is 'b', which doesn't seem like a good mapping.
+For example, to move your cursor a word forward, it is to press `w`. At this point I expect moving a word backward would be something sensible, like `q` or something, so it would be like how arrow keys are, but it is `b`, which doesn't seem like a good mapping.
 
-but down the road I've learnt that Vim keybindings is based more on mnemonics than directional mapping, 'w' to move cursor to a word forward, 'b' to go a word backwards.
+but down the road I've learnt that Vim keybindings is based more on mnemonics than directional mapping, `w` to move cursor to a word forward, `b` to go a word backwards.
 
 Here are some reasons why learning Vim is a good idea.
 
