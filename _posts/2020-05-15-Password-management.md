@@ -5,19 +5,25 @@ date:   2020-05-15 10:04:30 +0800
 categories: tools
 ---
 
-**This is a post about a password management system where you GPG encrypt markdown files on Linux and Syncthing them to Android.**
+<!--**This is a post about a password management system where you GPG encrypt markdown files on Linux and Syncthing them to Android.**-->
+
+<!--Want to use GPG encrypted files to manage your passwords?-->
 
 
 <!-- use the word `markdown files` instead of `plain-text files` is because people who care enough to read on are tech savvy people that knows markdown anyway, but then 会make it too 复杂吗, 再看吧, 感觉 say plain-text might 也比较好的 -->
 
-I'm not too fond of using password management tools like `Dashlane` or `1Password`, I've never really tried them, because there's no guarantee that they will live forever, nor that their security perfect.
+<!--I'm not too fond of using password management tools like `Dashlane` or `1Password`, I've never really tried them, because there's no guarantee that they will live forever, nor that their security perfect.-->
 
-Even though some of them are open-source, they are still at the mercy of their developers unless I'm willing to modify it myself,
-so it is harder to modify it to fit my needs better.
+<!--Even though some of them are open-source, they are still at the mercy of their developers unless I'm willing to modify it myself,-->
+<!--so it is harder to modify it to fit my needs better.-->
 
-I just want a password management system that is simple, extensible and will live forever, this is my setup:
+<!--I just want a password management system that is simple, extensible and will live forever, this is my setup:-->
+If you want a password management system that is plain-text based, let me introduce to you my setup which utlizes GPG encrypted files to do that.
 
-I create markdown files and store my login credentials plain-text, then
+It uses GPG to encrypt markdown files housing my login credentials, and Syncthing to synchronize them to my Android phone to realize cross-device availability.
+
+# Tools involved
+<!--To be more exact, I create markdown files and store my login credentials plain-text, then-->
 
 - On my computer, I use
   - `gpg` to encrypt the markdown files
@@ -27,7 +33,7 @@ I create markdown files and store my login credentials plain-text, then
   - [Syncthing](https://syncthing.net/) to synchronize the folder to my phone
   - [OpenKeychain](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain&hl=en) app to decrypt and read the encrypted files
 
-I could just Syncthing the markdown files without encryption to my phone, but on the off chance that my phone is stolen / lost / hacked, I don't want my passwords to go down with it, so it is safer to have it gpg encrypted.
+I could just Syncthing the markdown files *without encryption* to my phone, but on the off chance that my phone is stolen / lost / hacked, I don't want my passwords to go down with it, so it is safer to have it gpg encrypted.
 
 I'm aware of [pass](https://www.passwordstore.org/) and tried it before I came to this setup, but I want to put more info than just a password string in my files, so that's why `pass` doesn't fit my need.
 
@@ -46,8 +52,6 @@ $ `gpg --full-gen-key`
 Assuming you're using VimPlug ( a vim plugin manager ),
 put this into your ~/.vimrc and run `:VimPlug` in Vim.
 
-NOTE: remember to modify the `youremail@provider.com` to the email associated with your PGP key
-
 ```
 Plug 'jamessan/vim-gnupg'
 " Armor files
@@ -55,6 +59,8 @@ let g:GPGPreferArmor=1
 " Set the default option
 let g:GPGDefaultRecipients=["youremail@provider.com"]"
 ```
+NOTE: remember to modify the `youremail@provider.com` to the email associated with your PGP key
+
 <!--This plugin will auto decrypt encrypted files when you open them with Vim, making the only difference with opening a normal unencrypted file a slight delay of opening the file due to the decryption process.-->
 <!--有点啰嗦 this ^ line, comment it out first-->
 
@@ -74,12 +80,20 @@ if you use [Ranger](https://github.com/ranger/ranger), you can put this mapping 
 
 **5. Setup Syncthing**
 
-Install Syncthing on Linux and Android, set it up to sync your password folder to your phone.
+Install Syncthing on [Linux and Android](https://syncthing.net/downloads/), set it up to sync your password folder to your phone.
 
 **6. Setup OpenKeychain**
 
-Install [OpenKeychain](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain&hl=en) Android app on your phone, export your keys from Linux and import them on your android phone.
-<!--Install `OpenKeychain` Android app on your phone, export your keys from Linux and import them on your Android phone-->
+1. Install [OpenKeychain](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain&hl=en) Android app on your phone
+
+2. export your private key from Linux
+  ```
+  $ gpg --export-secret-keys --armor user-id > privkey.asc
+  ```
+
+3. Transfer the file to your Android phone
+4. Import the key file from the `OpenKeychain` app
+
 
 **7. Try decrypting your files on Android**
 
