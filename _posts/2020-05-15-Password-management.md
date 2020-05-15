@@ -76,7 +76,9 @@ $ `gpg -e -r youremail@provider.com path/to/file`
 
 if you use [Ranger](https://github.com/ranger/ranger), you can put this mapping into your rc.conf to encrypt it easily by pressing `te` when the selection is hovering on the file:
 
-`map te shell gpg --recipient youremail@provider.com --armor --output %f.asc --encrypt %f && rm %f`
+```
+map te shell gpg --recipient youremail@provider.com --armor --output %f.asc --encrypt %f && rm %f
+```
 
 **5. Setup Syncthing**
 
