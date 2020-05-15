@@ -20,7 +20,7 @@ categories: tools
 <!--I just want a password management system that is simple, extensible and will live forever, this is my setup:-->
 If you want a password management system that is plain-text based, let me introduce to you my setup which utlizes GPG encrypted files to do that.
 
-It uses GPG to encrypt markdown files housing my login credentials, and Syncthing to synchronize them to my Android phone to realize cross-device availability.
+It uses GPG to encrypt markdown files containing my login credentials, and Syncthing to synchronize them to my Android phone to realize cross-device availability.
 
 # Tools involved
 <!--To be more exact, I create markdown files and store my login credentials plain-text, then-->
@@ -80,19 +80,19 @@ if you use [Ranger](https://github.com/ranger/ranger), you can put this mapping 
 
 **5. Setup Syncthing**
 
-Install Syncthing on [Linux and Android](https://syncthing.net/downloads/), set it up to sync your password folder to your phone.
+[Install Syncthing](https://syncthing.net/downloads/) on Linux and Android set it up to sync your password folder to your phone.
 
 **6. Setup OpenKeychain**
 
 1. Install [OpenKeychain](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain&hl=en) Android app on your phone
 
-2. export your private key from Linux
+2. export your PGP private key from Linux
   ```
-  $ gpg --export-secret-keys --armor user-id > privkey.asc
+  $ gpg --export-secret-keys --armor youremail@provider.com > privkey.asc
   ```
 
-3. Transfer the file to your Android phone
-4. Import the key file from the `OpenKeychain` app
+3. Transfer the file to your Android phone (for example through wire)
+4. Import the key file into `OpenKeychain` app
 
 
 **7. Try decrypting your files on Android**
@@ -107,7 +107,7 @@ To decrypt and view your password file:
 
 <img src="/assets/decrypt.png" width="200px">
 
-4. Press `Select input file` and browse to the file
+4. Press `Select input file` and browse to the encrypted password file
 5. Enter your PGP key passphrase
 
 
