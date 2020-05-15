@@ -14,4 +14,4 @@ In the hopes that the next person that stumbled across some problem that I've en
 
 ### Implementation
 
-This is currently a Jekyll blog hosted on Github Pages.
+This is currently a [Jekyll](https://jekyllrb.com/) blog hosted with [Github Pages](https://pages.github.com/).

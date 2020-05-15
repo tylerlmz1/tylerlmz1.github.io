@@ -29,3 +29,6 @@ If you plan on going into the Linux ecosystem, it is helpful to learn Vim. A lot
 
 ### Useful for SSH
 when we have to SSH into a remote server to edit config files, Vim is likely to be installed in the server, while GUI text editors like Sublime text, VScode, or Emacs, are not necessarily available.
+
+
+<!--At the end of the day, even if you don't write software, but write a lot, Vim can supercharge your writing, it is definitely worthwhile to learn it, -->

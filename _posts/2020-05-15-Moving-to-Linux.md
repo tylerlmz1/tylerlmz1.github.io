@@ -7,9 +7,9 @@ date:   2020-05-15 08:52:30 +0800
 I've been using Linux (currently Linux Mint) full time since 2019 July, and it is kinda a love-hate relationship.
 
 Albeit seeing some hardcore fans on Reddit proclaiming that desktop Linux is ready for the mass population,
-<!--I really do not think so,-->
-I disagree,
-although I really love using Linux.
+I beg to differ,
+<!--I disagree,-->
+although I love Linux.
 
 I think desktop Linux at its current state is only suitable for advanced power users (like people working in the software world), and undemanding users like a grandmother that only needs to use the web browser. Medium-tier users that need stuff like Photoshop, Microsoft office suite, and want to play games, are actually better off staying on Windows.
 
@@ -20,7 +20,9 @@ I think desktop Linux at its current state is only suitable for advanced power u
   - Bloatware gets reinstalled after auto-updates.
 
 - I'm a Software Engineer
-  - I heard that Linux is more convenient for programming, so I thought that moving there is a good idea.
+  <!--- I heard that -->
+   - Linux is more convenient for programming
+    <!--, so I thought that moving there is a good idea.-->
 - Vulnerabilities
   - Windows userbase is huge so malware are more likely to target Windows, I heard Linux is safer so think this might be a good reason to switch to Linux.
 

@@ -6,4 +6,4 @@ categories: tools
 published: false
 ---
 
-How to change your Xiaomi K20Pro ROM
+**How to change your Xiaomi K20Pro ROM to Pixel experience**

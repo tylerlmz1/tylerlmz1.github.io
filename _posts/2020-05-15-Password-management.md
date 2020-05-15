@@ -7,6 +7,7 @@ categories: tools
 
 **This is a post about a password management system where you GPG encrypt markdown files on Linux and Syncthing them to Android.**
 
+
 <!-- use the word `markdown files` instead of `plain-text files` is because people who care enough to read on are tech savvy people that knows markdown anyway, but then 会make it too 复杂吗, 再看吧, 感觉 say plain-text might 也比较好的 -->
 
 I'm not too fond of using password management tools like `Dashlane` or `1Password`, I've never really tried them, because there's no guarantee that they will live forever, nor that their security perfect.
@@ -20,7 +21,7 @@ I create markdown files and store my login credentials plain-text, then
 
 - On my computer, I use
   - `gpg` to encrypt the markdown files
-  - `jamessan/vim-gnupg` Vim plugin to easily decrypt and edit the files
+  - [jamessan/vim-gnupg](https://vimawesome.com/plugin/gnupg-vim) Vim plugin to easily decrypt and edit the files
   - `Git` to version control the folder so I have full history of my login credentials
 - To access them from my phone, I use
   - [Syncthing](https://syncthing.net/) to synchronize the folder to my phone
@@ -90,10 +91,13 @@ To decrypt and view your password file:
 
 3. Press `Encrypt/Decrypt`
 
-<img src="/assets/decrypt.png" width="300px">
+<img src="/assets/decrypt.png" width="200px">
 
 4. Press `Select input file` and browse to the file
 5. Enter your PGP key passphrase
 
 
 **8. Done**
+
+
+<img src="/assets/view_decrypted_pw_file.png" width="200px">
