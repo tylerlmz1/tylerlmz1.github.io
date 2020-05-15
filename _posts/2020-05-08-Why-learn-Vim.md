@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why learn Vim"
+title:  "Reasons to learn Vim"
 date:   2020-05-08 21:12:30 +0800
 categories: tools
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: PGP-pub
 permalink: /PGP/
-published: true
+published: false
 ---
 
 My PGP public key:

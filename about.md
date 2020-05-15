@@ -15,3 +15,5 @@ In the hopes that the next person that stumbled across some problem that I've en
 ### Implementation
 
 This is currently a [Jekyll](https://jekyllrb.com/) blog hosted with [Github Pages](https://pages.github.com/).
+
+Source code for this blog can be found [here](https://github.com/tylerlmz1/tylerlmz1.github.io)
