@@ -6,7 +6,10 @@ date:   2020-05-15 08:52:30 +0800
 
 I've been using Linux (currently Linux Mint) full time since 2019 July, and it is kinda a love-hate relationship.
 
-Albeit seeing some hardcore fans on Reddit proclaiming that desktop Linux is ready for the mass population, I really do not think so, although I really love using Linux.
+Albeit seeing some hardcore fans on Reddit proclaiming that desktop Linux is ready for the mass population,
+<!--I really do not think so,-->
+I disagree,
+although I really love using Linux.
 
 I think desktop Linux at its current state is only suitable for advanced power users (like people working in the software world), and undemanding users like a grandmother that only needs to use the web browser. Medium-tier users that need stuff like Photoshop, Microsoft office suite, and want to play games, are actually better off staying on Windows.
 
@@ -30,5 +33,9 @@ I think desktop Linux at its current state is only suitable for advanced power u
 
 ### What I don't like about Linux
 - Small problems here and there
-  - It is probable that doing certain things on Linux is a pain, constantly googling and blindly trying out proposed solutions to get the smallest things to work, hence it is best to have technical aptitude to maximize the chances of successfully fixing things. 
+  <!--- It is probable that doing certain things on Linux is a pain,-->
+  - One can easily end up having to do a lot of googling and blindly trying out proposed solutions to get the smallest things to work, it is best to have technical aptitude to maximize the chances of successfully fixing things. 
   - This is the primary reason why I don't recommend medium-tier users to use Linux full-time, you're not getting the benefit of Linux's power usage because you're not doing advanced computing stuff, but you definitely will suffer from this inconvenience, making it not worth it.
+
+
+<!--At the end of the day, I am grateful for Linux, it supercharged my productivity a lot and it is free and open source.-->
