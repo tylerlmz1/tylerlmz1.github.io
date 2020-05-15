@@ -9,7 +9,7 @@ categories: tools
 
 <!-- use the word `markdown files` instead of `plain-text files` is because people who care enough to read on are tech savvy people that knows markdown anyway, but then 会make it too 复杂吗, 再看吧, 感觉 say plain-text might 也比较好的 -->
 
-I'm not too fond of using password management tools like `Dashlane` or `1Password`, I've never really tried them, because there's no guarantee that the tools will live forever, nor that their security perfect.
+I'm not too fond of using password management tools like `Dashlane` or `1Password`, I've never really tried them, because there's no guarantee that they will live forever, nor that their security perfect.
 
 Even though some of them are open-source, they are still at the mercy of their developers unless I'm willing to modify it myself,
 so it is harder to modify it to fit my needs better.
@@ -77,13 +77,12 @@ Install Syncthing on Linux and Android, set it up to sync your password folder t
 
 **6. Setup OpenKeychain**
 
-<!--Install [OpenKeychain](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain&hl=en) Android app on your phone, export your keys from Linux and import them on your android phone-->
-<!--didnt include link here is because they should just go google play search it anyway-->
-Install `OpenKeychain` Android app on your phone, export your keys from Linux and import them on your Android phone
+Install [OpenKeychain](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain&hl=en) Android app on your phone, export your keys from Linux and import them on your android phone.
+<!--Install `OpenKeychain` Android app on your phone, export your keys from Linux and import them on your Android phone-->
 
 **7. Try decrypting your files on Android**
 
-To decrypt and view the file:
+To decrypt and view your password file:
 
 1. Open the `OpenKeychain` app
 2. Press the hamburger menu icon on the top left

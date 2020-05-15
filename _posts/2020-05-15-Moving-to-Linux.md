@@ -16,7 +16,7 @@ I think desktop Linux at its current state is only suitable for advanced power u
 ### Why I moved away from Windows
 - Disrespect of users
   - There were a lot of news on privacy nightmare practices on Windows, like some shady telemetry going on in the background.
-  - Compulsory auto-updates. I like to hibernate my computer and it really bothers me when Windows keep annoys me with timed auto-updates.
+  - Compulsory auto-updates. I like to hibernate my computer and it really bothers me when Windows keeps annoying me with timed auto-updates.
   - Bloatware gets reinstalled after auto-updates.
 
 - I'm a Software Engineer
