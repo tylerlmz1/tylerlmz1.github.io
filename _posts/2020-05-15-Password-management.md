@@ -18,7 +18,7 @@ categories: tools
 <!--so it is harder to modify it to fit my needs better.-->
 
 <!--I just want a password management system that is simple, extensible and will live forever, this is my setup:-->
-If you want a password management system that is plain-text based, let me introduce to you my setup which utlizes GPG encrypted files to do that.
+If you want a password management system that is plain-text based, let me introduce to you my setup which utilizes GPG encrypted files to do that.
 
 It uses GPG to encrypt markdown files containing my login credentials, and Syncthing to synchronize them to my Android phone to realize cross-device availability.
 
