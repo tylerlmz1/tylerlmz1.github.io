@@ -80,6 +80,11 @@ if you use [Ranger](https://github.com/ranger/ranger), you can put this mapping 
 map te shell gpg --recipient youremail@provider.com --armor --output %f.asc --encrypt %f && rm %f
 ```
 
+Open the file with Vim to make sure it can auto decrypt and open up the file.
+```
+$ vim /path/to/file
+```
+
 **5. Setup Syncthing**
 
 [Install Syncthing](https://syncthing.net/downloads/) on Linux and Android set it up to sync your password folder to your phone.
