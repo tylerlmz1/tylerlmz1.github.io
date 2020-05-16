@@ -34,7 +34,7 @@ I think desktop Linux at its current state is only suitable for advanced power u
     One can easily pipe them together to have a custom script to automate whatever you frequently do.
   <!--- Shell scripting is available on Windows too, but Powershell is a pain to use in the terminal, and more suitable for scripting purposes, and CMD is.. well.. suckish-->
 - Keyboard-driven
-  - It is easier to work primarily via keyboard, though it is not feasible for me to go without mouse entirely ( I've tried working with my mouse unplugged, it is still less convenient for situations like selecting text off a web page ), most of the actions can be done via keyboard shortcuts and this increases productivity a lot.
+  - It is easier to work primarily via keyboard because programs are full of shortcut keys mapped in, with this you can do things a lot faster. Though it is not feasible for me to go without mouse entirely ( I've tried working with my mouse unplugged, it is still less convenient for situations like selecting text off a web page ), most of the actions can be done via keyboard shortcuts and this increases productivity a lot.
 
 ### What I don't like about Linux
 - Small problems here and there
@@ -44,3 +44,5 @@ I think desktop Linux at its current state is only suitable for advanced power u
 
 
 <!--At the end of the day, I am grateful for Linux, it supercharged my productivity a lot and it is free and open source.-->
+
+<!--There are a lot of Linux distributions to choose from, I personally would recommend Linux Mint, it is one of the most beginner friendly distros.-->

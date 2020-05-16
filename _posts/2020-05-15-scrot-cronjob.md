@@ -5,7 +5,7 @@ date:   2020-05-16 18:25:30 +0800
 <!--published: false-->
 ---
 
-On Linux, you can take a screenshot of your currently focused window every X interval.
+On Linux, you can save a screenshot of your currently focused window every X interval.
 
 These are some of my screenshots, previewed with `sxiv` image viewer.
 <img src="/assets/cronscrot_sxiv_preview.png">
@@ -21,14 +21,14 @@ This can be achieved with 3 tools
 - `scrot`
 - `cron`
 
-Install scrot
+# Install scrot
 ```
 $ sudo apt-get install scrot
 ```
 
 <!--`cron` is included in most Linux distributions so no need to install it.-->
 
-Save this bash script:
+# Save this bash script
 
 ```
 #!/bin/bash
@@ -38,14 +38,24 @@ cd "$(dirname "$0")"
 
 date_string=$(date --iso-8601=date)
 folderName=$date_string
-mkdir -p ../cron_scrot_snapshot/$folderName
+mkdir -p ~/Pictures/cron_scrot_snapshot/$folderName
 
-DISPLAY=:0 scrot -u ../cron_scrot_snapshot/$folderName/%Y-%m-%d_%H:%M:%S_scrot.png
+DISPLAY=:0 scrot -u ~/Pictures/cron_scrot_snapshot/$folderName/%Y-%m-%d_%H:%M:%S_scrot.png
 ```
+<!--changed `../` to `./` here, zk-->
 
 This bash script creates a folder with the current date, in ISO8601 format (e.g. 2020-05-02)
-and saves the currently focused window into the folder as a png file.
+and saves the currently focused window into the date folder as a png file.
 
+<img src="/assets/cronscrot_files.png">
+<!--Date folders are created accordingly and pictures will be saved in the corresponding date folder.-->
+
+This is what the directory structure would look like.
+
+
+
+
+# Setting up a cronjob
 
 You can set up a cronjob to run the script every X interval, for example every 5 minutes.
 
