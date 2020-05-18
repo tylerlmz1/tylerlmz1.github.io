@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Initiate a google search outside a browser"
-date:   2020-05-17 23:31:30 +0800
+date:   2020-05-18 23:17:30 +0800
 <!--published: false-->
 ---
 
@@ -16,6 +16,7 @@ Alternatively, you could speed this process up by mapping a shortcut key to run 
 #!/usr/bin/env bash
 
 search=$(zenity --entry --title="Google search" --text="" 2>/dev/null)
+
 if [ ! -z "$search" ]; then
   firefox -search "$search"
 fi
@@ -23,7 +24,14 @@ fi
 
 # Map a shortcut key to run the script
 
-# What it looks like
+On Linux Mint, you could do this by going to
+
+`Start > Keyboard > Shortcuts > Custom shortcuts`
+and adding an custom shortcut.
+
+Alternatively you could also use `xbindkeys` if you prefer doing this via CLI.
+
+# What the end result looks like
 <img src="/assets/zenity_google_search.gif">
 
 <!--write a google chrome script variant-->
