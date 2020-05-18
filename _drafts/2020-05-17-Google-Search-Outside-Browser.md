@@ -11,8 +11,7 @@ Let's say you're reading some slides or PDF and you saw something you want to go
 
 Alternatively, you could speed this process up by mapping a shortcut key to run a bash script to let you start typing your query right away.
 
-<!--script way DEMO GIF-->
-
+# Save this bash script
 ```
 #!/usr/bin/env bash
 
@@ -22,7 +21,9 @@ if [ ! -z "$search" ]; then
 fi
 ```
 
+# Map a shortcut key to run the script
+
 # What it looks like
-<img src="/assets/zenity_google_search.png">
+<img src="/assets/zenity_google_search.gif">
 
 <!--write a google chrome script variant-->
