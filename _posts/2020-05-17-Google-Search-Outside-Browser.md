@@ -9,7 +9,8 @@ Let's say you're reading some slides or PDF and you saw something you want to go
 
 <!--slow way DEMO GIF-->
 
-Alternatively, you could speed this process up by mapping a shortcut key to run a bash script to let you start typing your query right away.
+Alternatively, you could speed up this process by mapping a shortcut key to run a bash script to let you start typing your query right away.
+
 
 # Save this bash script
 ```
@@ -31,7 +32,7 @@ and adding an custom shortcut.
 
 Alternatively you could also use `xbindkeys` if you prefer doing this via CLI.
 
+
 # What the end result looks like
 <img src="/assets/zenity_google_search.gif">
-
 <!--write a google chrome script variant-->

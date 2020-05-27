@@ -87,7 +87,7 @@ $ vim /path/to/file
 
 **5. Setup Syncthing**
 
-[Install Syncthing](https://syncthing.net/downloads/) on Linux and Android set it up to sync your password folder to your phone.
+[Install Syncthing](https://syncthing.net/downloads/) on Linux and Android, then set it up to sync your password folder to your phone.
 
 **6. Setup OpenKeychain**
 
