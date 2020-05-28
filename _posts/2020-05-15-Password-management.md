@@ -50,7 +50,7 @@ $ `gpg --full-gen-key`
 **2. Install the Vim plugin and put in corresponding config**
 
 Assuming you're using VimPlug ( a vim plugin manager ),
-put this into your ~/.vimrc and run `:VimPlug` in Vim.
+put this into your ~/.vimrc and run `:PlugInstall` in Vim.
 
 ```
 Plug 'jamessan/vim-gnupg'
