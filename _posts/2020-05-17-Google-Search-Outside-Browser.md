@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Initiate a google search outside a browser"
+title:  "How to initiate a google search outside a browser in Linux"
 date:   2020-05-18 23:17:30 +0800
 <!--published: false-->
 ---
