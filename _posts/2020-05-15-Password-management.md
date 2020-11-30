@@ -35,7 +35,8 @@ It uses GPG to encrypt markdown files containing my login credentials, and Synct
 
 I could just Syncthing the markdown files *without encryption* to my phone, but on the off chance that my phone is stolen / lost / hacked, I don't want my passwords to go down with it, so it is safer to have it gpg encrypted.
 
-I'm aware of [pass](https://www.passwordstore.org/) and tried it before I came to this setup, but I want to put more info than just a password string in my files, so that's why `pass` doesn't fit my need.
+~~I'm aware of [pass](https://www.passwordstore.org/) and tried it before I came to this setup, but I want to put more info than just a password string in my files, so that's why `pass` doesn't fit my need.~~
+As many have pointed out in this [HackerNews thread](https://news.ycombinator.com/item?id=25247211), pass allows multi-line edit, so this paragraph is incorrect.
 
 ### How to replicate this setup
 
